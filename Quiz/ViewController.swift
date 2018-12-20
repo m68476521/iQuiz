@@ -9,12 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet var questionLabel: UILabel!
+    @IBOutlet var answerLabel: UILabel!
+    
+    @IBAction func showNextQuestion(_ sender: UIButton) {
+        
     }
-
-
+    
+    @IBAction func showAnswer(_ sender: UIButton) {
+        
+    }
 }
-
