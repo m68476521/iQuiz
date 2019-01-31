@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,9 +43,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tx7-H5-DWA">
+                                <rect key="frame" x="186" y="146" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Tx7-H5-DWA" firstAttribute="top" secondItem="Nto-vM-Pti" secondAttribute="top" id="3Zh-2z-UWS"/>
                             <constraint firstItem="myR-6W-N67" firstAttribute="top" secondItem="Nto-vM-Pti" secondAttribute="bottom" constant="23" id="AbH-Eu-Yyf"/>
                             <constraint firstItem="Nto-vM-Pti" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="102" id="CYm-nh-t1l"/>
                             <constraint firstItem="Ge3-oK-0HO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IcW-h5-ZDU"/>
@@ -55,13 +62,15 @@
                             <constraint firstItem="myR-6W-N67" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eRI-6w-Q3i"/>
                             <constraint firstItem="myR-6W-N67" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gT0-Vd-Kmg"/>
                             <constraint firstItem="Ge3-oK-0HO" firstAttribute="top" secondItem="f1Q-PR-dFu" secondAttribute="bottom" constant="19" id="jWD-cj-GxG"/>
+                            <constraint firstItem="Tx7-H5-DWA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rXS-Ko-6Ud"/>
                             <constraint firstItem="Nto-vM-Pti" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s6v-5r-toD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="f1Q-PR-dFu" id="65u-k9-6UN"/>
-                        <outlet property="questionLabel" destination="Nto-vM-Pti" id="tmV-Va-anZ"/>
+                        <outlet property="currentQuestionLabel" destination="Nto-vM-Pti" id="z6K-Lz-SbP"/>
+                        <outlet property="nextQuestionLabel" destination="Tx7-H5-DWA" id="4S5-nn-Bj7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
