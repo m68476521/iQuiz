@@ -55,6 +55,7 @@
                             <constraint firstItem="Tx7-H5-DWA" firstAttribute="top" secondItem="Nto-vM-Pti" secondAttribute="top" id="3Zh-2z-UWS"/>
                             <constraint firstItem="myR-6W-N67" firstAttribute="top" secondItem="Nto-vM-Pti" secondAttribute="bottom" constant="23" id="AbH-Eu-Yyf"/>
                             <constraint firstItem="Nto-vM-Pti" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="102" id="CYm-nh-t1l"/>
+                            <constraint firstItem="myR-6W-N67" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cau-Pv-uEt"/>
                             <constraint firstItem="Ge3-oK-0HO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IcW-h5-ZDU"/>
                             <constraint firstItem="f1Q-PR-dFu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MEm-0s-s68"/>
                             <constraint firstItem="f1Q-PR-dFu" firstAttribute="top" secondItem="myR-6W-N67" secondAttribute="bottom" constant="66" id="SIq-qo-Vqo"/>
